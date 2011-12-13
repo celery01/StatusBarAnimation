@@ -22,13 +22,13 @@
 		A712C3B714975731008FED37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A712C3B914975731008FED37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A712C3BB14975731008FED37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A712C3BF14975731008FED37 /* StatusBarAnimation-Info.plist */ = {isa = PBXFileReference; path = "StatusBarAnimation-Info.plist"; sourceTree = "<group>"; };
+		A712C3BF14975731008FED37 /* StatusBarAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StatusBarAnimation-Info.plist"; sourceTree = "<group>"; };
 		A712C3C114975731008FED37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A712C3C314975731008FED37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A712C3C514975731008FED37 /* StatusBarAnimation-Prefix.pch */ = {isa = PBXFileReference; path = "StatusBarAnimation-Prefix.pch"; sourceTree = "<group>"; };
-		A712C3C614975731008FED37 /* CExAppDelegate.h */ = {isa = PBXFileReference; path = CExAppDelegate.h; sourceTree = "<group>"; };
+		A712C3C514975731008FED37 /* StatusBarAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StatusBarAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		A712C3C614975731008FED37 /* CExAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CExAppDelegate.h; sourceTree = "<group>"; };
 		A712C3C714975731008FED37 /* CExAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CExAppDelegate.m; sourceTree = "<group>"; };
-		A712C3C914975731008FED37 /* CExViewController.h */ = {isa = PBXFileReference; path = CExViewController.h; sourceTree = "<group>"; };
+		A712C3C914975731008FED37 /* CExViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CExViewController.h; sourceTree = "<group>"; };
 		A712C3CA14975731008FED37 /* CExViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CExViewController.m; sourceTree = "<group>"; };
 		A712C3CD14975731008FED37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CExViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
