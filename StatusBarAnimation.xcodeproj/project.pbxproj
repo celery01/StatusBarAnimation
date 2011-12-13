@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A712C3B814975731008FED37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A712C3B714975731008FED37 /* UIKit.framework */; };
+		A712C3BA14975731008FED37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A712C3B914975731008FED37 /* Foundation.framework */; };
+		A712C3BC14975731008FED37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A712C3BB14975731008FED37 /* CoreGraphics.framework */; };
+		A712C3C214975731008FED37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A712C3C014975731008FED37 /* InfoPlist.strings */; };
+		A712C3C414975731008FED37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A712C3C314975731008FED37 /* main.m */; };
+		A712C3C814975731008FED37 /* CExAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A712C3C714975731008FED37 /* CExAppDelegate.m */; };
+		A712C3CB14975731008FED37 /* CExViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A712C3CA14975731008FED37 /* CExViewController.m */; };
+		A712C3CE14975731008FED37 /* CExViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A712C3CC14975731008FED37 /* CExViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A712C3B314975731008FED37 /* StatusBarAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatusBarAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A712C3B714975731008FED37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A712C3B914975731008FED37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A712C3BB14975731008FED37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A712C3BF14975731008FED37 /* StatusBarAnimation-Info.plist */ = {isa = PBXFileReference; path = "StatusBarAnimation-Info.plist"; sourceTree = "<group>"; };
+		A712C3C114975731008FED37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A712C3C314975731008FED37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A712C3C514975731008FED37 /* StatusBarAnimation-Prefix.pch */ = {isa = PBXFileReference; path = "StatusBarAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		A712C3C614975731008FED37 /* CExAppDelegate.h */ = {isa = PBXFileReference; path = CExAppDelegate.h; sourceTree = "<group>"; };
+		A712C3C714975731008FED37 /* CExAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CExAppDelegate.m; sourceTree = "<group>"; };
+		A712C3C914975731008FED37 /* CExViewController.h */ = {isa = PBXFileReference; path = CExViewController.h; sourceTree = "<group>"; };
+		A712C3CA14975731008FED37 /* CExViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CExViewController.m; sourceTree = "<group>"; };
+		A712C3CD14975731008FED37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CExViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A712C3B014975731008FED37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A712C3B814975731008FED37 /* UIKit.framework in Frameworks */,
+				A712C3BA14975731008FED37 /* Foundation.framework in Frameworks */,
+				A712C3BC14975731008FED37 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A712C3A814975731008FED37 = {
+			isa = PBXGroup;
+			children = (
+				A712C3BD14975731008FED37 /* StatusBarAnimation */,
+				A712C3B614975731008FED37 /* Frameworks */,
+				A712C3B414975731008FED37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A712C3B414975731008FED37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A712C3B314975731008FED37 /* StatusBarAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A712C3B614975731008FED37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A712C3B714975731008FED37 /* UIKit.framework */,
+				A712C3B914975731008FED37 /* Foundation.framework */,
+				A712C3BB14975731008FED37 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A712C3BD14975731008FED37 /* StatusBarAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A712C3C614975731008FED37 /* CExAppDelegate.h */,
+				A712C3C714975731008FED37 /* CExAppDelegate.m */,
+				A712C3C914975731008FED37 /* CExViewController.h */,
+				A712C3CA14975731008FED37 /* CExViewController.m */,
+				A712C3CC14975731008FED37 /* CExViewController.xib */,
+				A712C3BE14975731008FED37 /* Supporting Files */,
+			);
+			path = StatusBarAnimation;
+			sourceTree = "<group>";
+		};
+		A712C3BE14975731008FED37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A712C3BF14975731008FED37 /* StatusBarAnimation-Info.plist */,
+				A712C3C014975731008FED37 /* InfoPlist.strings */,
+				A712C3C314975731008FED37 /* main.m */,
+				A712C3C514975731008FED37 /* StatusBarAnimation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A712C3B214975731008FED37 /* StatusBarAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A712C3D114975731008FED37 /* Build configuration list for PBXNativeTarget "StatusBarAnimation" */;
+			buildPhases = (
+				A712C3AF14975731008FED37 /* Sources */,
+				A712C3B014975731008FED37 /* Frameworks */,
+				A712C3B114975731008FED37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StatusBarAnimation;
+			productName = StatusBarAnimation;
+			productReference = A712C3B314975731008FED37 /* StatusBarAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A712C3AA14975731008FED37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A712C3AD14975731008FED37 /* Build configuration list for PBXProject "StatusBarAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A712C3A814975731008FED37;
+			productRefGroup = A712C3B414975731008FED37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A712C3B214975731008FED37 /* StatusBarAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A712C3B114975731008FED37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A712C3C214975731008FED37 /* InfoPlist.strings in Resources */,
+				A712C3CE14975731008FED37 /* CExViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A712C3AF14975731008FED37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A712C3C414975731008FED37 /* main.m in Sources */,
+				A712C3C814975731008FED37 /* CExAppDelegate.m in Sources */,
+				A712C3CB14975731008FED37 /* CExViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A712C3C014975731008FED37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A712C3C114975731008FED37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A712C3CC14975731008FED37 /* CExViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A712C3CD14975731008FED37 /* en */,
+			);
+			name = CExViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A712C3CF14975731008FED37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A712C3D014975731008FED37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A712C3D214975731008FED37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StatusBarAnimation/StatusBarAnimation-Prefix.pch";
+				INFOPLIST_FILE = "StatusBarAnimation/StatusBarAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A712C3D314975731008FED37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StatusBarAnimation/StatusBarAnimation-Prefix.pch";
+				INFOPLIST_FILE = "StatusBarAnimation/StatusBarAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A712C3AD14975731008FED37 /* Build configuration list for PBXProject "StatusBarAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A712C3CF14975731008FED37 /* Debug */,
+				A712C3D014975731008FED37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A712C3D114975731008FED37 /* Build configuration list for PBXNativeTarget "StatusBarAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A712C3D214975731008FED37 /* Debug */,
+				A712C3D314975731008FED37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A712C3AA14975731008FED37 /* Project object */;
+}
